@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    tools:context=".parametre">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="137dp"
+        android:layout_height="65dp"
+        android:text="Deco+"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/ic_compte"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="151dp"
+        android:layout_height="50dp"
+        android:text="Parametre"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="172dp"
+        android:layout_height="165dp"
+        android:backgroundTint="@color/primaryLightColor"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:foregroundGravity="fill"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.289">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="125dp"
+            android:layout_height="113dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_home"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Accueil"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="172dp"
+        android:layout_height="165dp"
+        android:backgroundTint="@color/primaryLightColor"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:foregroundGravity="fill"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.289">
+
+        <ImageView
+            android:id="@+id/contacter"
+            android:layout_width="102dp"
+            android:layout_height="94dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_contacter"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Nous contacté"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="172dp"
+        android:layout_height="165dp"
+        android:backgroundTint="@color/primaryLightColor"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:foregroundGravity="fill"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63">
+
+        <ImageView
+            android:id="@+id/parametre"
+            android:layout_width="123dp"
+            android:layout_height="114dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_parametre"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Sécurité"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="172dp"
+        android:layout_height="165dp"
+        android:backgroundTint="@color/primaryLightColor"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:foregroundGravity="fill"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63">
+
+        <ImageView
+            android:id="@+id/aide"
+            android:layout_width="102dp"
+            android:layout_height="94dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_aide"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Centre d'aide"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="172dp"
+        android:layout_height="165dp"
+        android:backgroundTint="@color/primaryLightColor"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:foregroundGravity="fill"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.971">
+
+        <ImageView
+            android:id="@+id/apropos"
+            android:layout_width="98dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_propos"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="A-propos"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="172dp"
+        android:layout_height="165dp"
+        android:backgroundTint="@color/primaryLightColor"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:foregroundGravity="fill"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.971">
+
+        <ImageView
+            android:id="@+id/deconnexion"
+            android:layout_width="98dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_deconecter"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Déconnexion"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

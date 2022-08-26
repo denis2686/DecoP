@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="126dp"
+        android:layout_height="74dp"
+        android:text="@string/deco"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/ic_compte"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <LinearLayout
+        android:id="@+id/barre"
+        android:layout_width="382dp"
+        android:layout_height="50dp"
+        android:background="@drawable/background_barre"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_home"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/service"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_service"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/message"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_message"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/recherche"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_recherche"
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:id="@+id/parametre"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_parametre"
+            tools:ignore="ContentDescription"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
