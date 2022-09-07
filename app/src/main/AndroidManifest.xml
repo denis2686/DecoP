@@ -3,6 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.decop">
 
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,16 +20,53 @@
         android:theme="@style/Theme.DecoP"
         tools:targetApi="31">
         <activity
-            android:name=".service"
-            android:exported="false" />
-        <activity
-            android:name=".connexion"
-            android:exported="false" />
-        <activity
-            android:name=".inscription"
-            android:exported="false" />
-        <activity
             android:name=".parametre"
+            android:exported="false" />
+        <activity
+            android:name=".Deconnexion"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.message"
+            android:exported="false"
+            android:label="@string/title_activity_message" />
+        <activity
+            android:name=".ajoutexpe"
+            android:exported="false" />
+        <activity
+            android:name=".home_entreprise"
+            android:exported="false" />
+        <activity
+            android:name=".sup_compte"
+            android:exported="false" />
+        <activity
+            android:name=".confidentialite"
+            android:exported="false" />
+        <activity
+            android:name=".securite"
+            android:exported="false" />
+        <activity
+            android:name=".centreaide"
+            android:exported="false" />
+        <activity
+            android:name=".devcontactes"
+            android:exported="false" />
+        <activity
+            android:name=".apropos"
+            android:exported="false" />
+        <activity
+            android:name=".connexion_deco"
+            android:exported="false" />
+        <activity
+            android:name=".clientdecorateur"
+            android:exported="false" />
+        <activity
+            android:name=".iinscriptionDeco"
+            android:exported="false" />
+        <activity
+            android:name=".connexionC"
+            android:exported="false" />
+        <activity
+            android:name=".inscriptionC"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

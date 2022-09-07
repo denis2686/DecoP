@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondaryDarkColor"
+    tools:context=".clientdecorateur">
+
+    <LinearLayout
+        android:layout_width="333dp"
+        android:layout_height="665dp"
+        android:background="@color/primaryColor"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="314dp"
+            android:layout_height="198dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="1. Pour le Client qui cherche un décorateur,
+vous êtes obligé de s'enregistrer en cliquant juste sur le bouton en bas.
+\nAprès avoir créer un compte Déco+; vous avez la possibilité de contacter
+ n'importe quelle entreprise de décoration ou un décorateur simple."
+            android:textColor="@color/primaryTextColor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/client"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/primaryLightColor"
+            android:text="Cliquer ici"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="25sp" />
+
+        <TextView
+            android:layout_width="308dp"
+            android:layout_height="222dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="2. Pour les entreprise de décoration
+ou pour un décorateur qui travail personnelement. En cliquant en bas
+vous serez dirigé sur la page de création d'un compte décorateur.
+vous allez aussi spécifié vos services, en donnant aussi votre adresse
+mail et en ajoutant votre logo pour vous reperez facilement par vos clients."
+            android:textColor="@color/primaryTextColor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/entreprise"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/primaryLightColor"
+            android:text="Cliquer ici"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="25sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

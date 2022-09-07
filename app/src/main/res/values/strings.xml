@@ -1,21 +1,15 @@
 <resources>
     <string name="app_name">DecoP</string>
-    <string name="service_traiteur">Service traiteur</string>
-    <string name="location">Location</string>
-    <string name="animation">Animation</string>
-    <string name="d_coration">Décoration</string>
-    <string name="valider">Valider</string>
-    <string name="connexion">Connexion</string>
-    <string name="cr_er_un_nouveau_compte">Créer un nouveau compte</string>
-    <string name="mot_de_passe">Mot de passe</string>
-    <string name="email">Email</string>
-    <string name="connectez_vous_pour_continuer">connectez-vous pour continuer</string>
-    <string name="bienvenu">Bienvenu</string>
     <string name="deco">Deco+</string>
-    <string name="s_inscrire">S\'inscrire</string>
-    <string name="se_connecter">Se connecter</string>
-    <string name="pr_nom">Prénom</string>
-    <string name="nom">Nom</string>
-    <string name="ces_champs_sont_obligatoire">Ces champs sont obligatoire</string>
-    <string name="inscrivez_vous">Inscrivez-vous</string>
+    <string name="title_activity_message">message</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/de"
+    android:background="@color/primaryColor"
+    tools:context=".accueil">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="110sp"
+        android:layout_height="90sp"
+        android:layout_marginTop="16dp"
+        android:background="@mipmap/mariage1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Une salle pas comme les autres"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:text="visiter et prener plaisir avec nos salle"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        app:layout_constraintTop_toBottomOf="@+id/titre" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="110sp"
+        android:layout_height="90sp"
+        android:layout_marginTop="260dp"
+        android:background="@mipmap/salle1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/titre3"
+        android:layout_width="255dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="16dp"
+        android:text="Une salle bien reserver pour vos fete"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/image3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/description3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Desy service +243 999 xxx xxx xxx"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        app:layout_constraintTop_toBottomOf="@+id/titre3" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="110sp"
+        android:layout_height="90sp"
+        android:layout_marginTop="140dp"
+        android:background="@mipmap/mariage2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/titr2"
+        android:layout_width="217dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="16dp"
+        android:text="Dorcas deco pas les un"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/image2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:text="Venez nombreux pour vos fete "
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        app:layout_constraintTop_toBottomOf="@+id/titr2" />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="110sp"
+        android:layout_height="90sp"
+        android:layout_marginTop="368dp"
+        android:background="@mipmap/traiteur1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/trai1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginEnd="16dp"
+        android:text="un service qui vous marquera"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/image4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descriptiontrai1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="Desy service vous serez jamais trahit"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/image4"
+        app:layout_constraintTop_toBottomOf="@+id/trai1" />
+
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="110sp"
+        android:layout_height="90sp"
+        android:layout_marginTop="476dp"
+        android:background="@mipmap/salle2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/fete2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="476dp"
+        android:layout_marginEnd="16dp"
+        android:text="une salle de fete pour vous"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/image5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descriptionfete2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="Dorcas muk +243 xxx xxx xxxx"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/image5"
+        app:layout_constraintTop_toBottomOf="@+id/fete2" />
+
+    <ImageView
+        android:id="@+id/image6"
+        android:layout_width="110sp"
+        android:layout_height="90sp"
+        android:layout_marginTop="584dp"
+        android:background="@mipmap/traiteur2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/fete3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="584dp"
+        android:layout_marginEnd="16dp"
+        android:text="service trateur bien propre"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/image6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descriptionfete3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="Isi busenesse +243 xxx xxx xxxx"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/image6"
+        app:layout_constraintTop_toBottomOf="@+id/fete3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

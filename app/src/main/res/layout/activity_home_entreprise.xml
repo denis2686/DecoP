@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/homeentre"
+    android:layout_height="match_parent"
+    android:background="@color/secondaryDarkColor"
+    tools:context=".home_entreprise">
+
+    <LinearLayout
+        android:layout_width="429dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/primaryColor"
+        android:foregroundGravity="clip_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/connexion"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="180dp"
+            android:background="@mipmap/icon_account"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.915"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/expp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:backgroundTint="@color/primaryLightColor"
+            android:text="+"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/barre"
+        android:layout_width="350dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/backb"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/primaryTextColor"
+            android:text="Tous"
+            android:contentDescription="TODO"/>
+
+        <TextView
+            android:id="@+id/serdeco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/primaryTextColor"
+            android:text="Décoration"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/serTr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/primaryTextColor"
+            android:text="S_Traiteur"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/serloca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/primaryTextColor"
+            android:text="Location"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/seranim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/primaryTextColor"
+            android:text="Animation"
+            android:contentDescription="TODO"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="105dp"
+        android:background="@color/primaryColor"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

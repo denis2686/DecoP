@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryDarkColor"
+    tools:context=".Deconnexion">
+
+    <LinearLayout
+        android:layout_width="416dp"
+        android:layout_height="103dp"
+        android:background="@color/primaryColor"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_120sdp"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/cercle"
+                android:scaleType="centerCrop"
+                app:riv_oval="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="logo"
+                android:textColor="@color/primaryDarkColor"
+                android:textSize="@dimen/_20ssp" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="292dp"
+        android:background="@drawable/barre_de_saisie"
+        android:hint="Email"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/secondaryTextColor"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/barre_de_saisie"
+        android:hint="Mot de passe"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/secondaryTextColor"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnoffline"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="212dp"
+        android:backgroundTint="@color/primaryLightColor"
+        android:text="Se déconnecter"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

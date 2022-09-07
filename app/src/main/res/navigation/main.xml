@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/de">
+
+    <fragment
+        android:id="@+id/idconnexion"
+        android:name="com.example.decop.frag1"
+        android:label="fragment_frag1"
+        tools:layout="@layout/fragment_frag1" />
+    <fragment
+        android:id="@+id/Se_deconnecter"
+        android:name="com.example.decop.frag2"
+        android:label="fragment_frag2"
+        tools:layout="@layout/fragment_frag2" />
+</navigation>
